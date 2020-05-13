@@ -64,10 +64,12 @@ DirectoryWatcher is a lightweight class that uses GCD to monitor a given path fo
 
   # s.platform     = :ios
   s.platform     = :ios, "9.0"
+  s.platform     = :osx, "10.10"
+
   s.swift_version = "5.0"
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
+  s.ios.deployment_target = "9.0"
+  s.osx.deployment_target = "10.10"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
